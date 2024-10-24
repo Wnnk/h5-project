@@ -58,6 +58,8 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-3090920231225001",
     "@dcloudio/uni-mp-xhs": "3.0.0-3090920231225001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3090920231225001",
+    "@lucky-canvas/mini": "^0.0.7",
+    "@lucky-canvas/uni": "^0.0.13",
     "@uni-helper/axios-adapter": "^1.5.2",
     "@uni-helper/unocss-preset-uni": "^0.2.8",
     "axios": "^1.6.8",

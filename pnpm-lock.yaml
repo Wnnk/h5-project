@@ -50,6 +50,12 @@ importers:
       '@dcloudio/uni-quickapp-webview':
         specifier: 3.0.0-3090920231225001
         version: 3.0.0-3090920231225001(postcss@8.4.38)(vue@3.2.47)
+      '@lucky-canvas/mini':
+        specifier: ^0.0.7
+        version: 0.0.7
+      '@lucky-canvas/uni':
+        specifier: ^0.0.13
+        version: 0.0.13
       '@uni-helper/axios-adapter':
         specifier: ^1.5.2
         version: 1.5.2(axios@1.6.8)
@@ -1558,6 +1564,12 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@lucky-canvas/mini@0.0.7':
+    resolution: {integrity: sha512-xJ7vXIzxeyZrL9CmTkMMtFEqRYFpeYlMgEPZ3EkoUOi121D/pXraZx/pVqlEOVhKOfJIhGJGJTswWycyfzKbpQ==}
+
+  '@lucky-canvas/uni@0.0.13':
+    resolution: {integrity: sha512-rtudKkWgGY+Uj+1xvZJqbQ/NMGGvge/os0cypj12EO6RK8ZX0NKVR97SxEsFG7mn96cDn96tCg12MwmYQHkB9g==}
 
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
@@ -4231,6 +4243,9 @@ packages:
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
+
+  lucky-canvas@1.7.27:
+    resolution: {integrity: sha512-Ftz6qD+863bI7xijBmZg3dw3cNEc7odPr70EZQcGA14y3TgTAzH65HPosOCd6kKUlMwhntBaHMx3onoj9MtJRQ==}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -8076,6 +8091,14 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
+  '@lucky-canvas/mini@0.0.7':
+    dependencies:
+      lucky-canvas: 1.7.27
+
+  '@lucky-canvas/uni@0.0.13':
+    dependencies:
+      lucky-canvas: 1.7.27
+
   '@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1':
     dependencies:
       eslint-scope: 5.1.1
@@ -11519,6 +11542,8 @@ snapshots:
   lru-cache@6.0.0:
     dependencies:
       yallist: 4.0.0
+
+  lucky-canvas@1.7.27: {}
 
   magic-string@0.25.9:
     dependencies:
